@@ -1,0 +1,37 @@
+{
+ "news": [
+  {
+   "id": 39221044,
+   "headline": "Oil Traders Brace For OPEC+ Supply Path After Weekend Meeting",
+   "author": "Benzinga Newsdesk",
+   "created_at": "2024-06-08T14:12:31Z",
+   "updated_at": "2024-06-08T14:12:32Z",
+   "summary": "Crude futures could gap on Monday as OPEC+ outlines how it will unwind cuts.",
+   "content": "<p>Crude futures could gap on Monday as OPEC+ outlines how it will unwind voluntary cuts from October.</p>",
+   "images": [],
+   "symbols": [
+    "USO",
+    "XLE"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/39221044"
+  },
+  {
+   "id": 39229817,
+   "headline": "Apple Kicks Off WWDC With AI Push Expected",
+   "author": "Benzinga Newsdesk",
+   "created_at": "2024-06-10T12:45:03Z",
+   "updated_at": "2024-06-10T12:45:04Z",
+   "summary": "Apple's developer conference starts today with investors watching for generative AI features.",
+   "content": "<p>Apple's developer conference starts today with investors watching for generative AI features.</p>",
+   "images": [],
+   "symbols": [
+    "AAPL",
+    "QQQ"
+   ],
+   "source": "benzinga",
+   "url": "https://www.benzinga.com/news/39229817"
+  }
+ ],
+ "next_page_token": "MTcxODAyMzUwMzAwMDAwMDAwMHwzOTIyOTgxNw=="
+}

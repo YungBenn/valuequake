@@ -1,0 +1,3 @@
+# Base Rates from placebo publish times; go/no-go against the Calendar Baseline
+
+Base Rates are not built from close-to-close daily SAR. They come from random publish times per ETF, scored with the same window rule and SAR formula as real Articles and bucketed by session timing. Partial-day windows then measure the same thing as the Base Rate. The go/no-go RPSS is measured against the Calendar Baseline (Base Rates split by whether a tier-1 scheduled release falls in the window), because news that passes the pre-filter clusters on CPI, FOMC and earnings days. Beating unconditional Base Rates would only show that Opus can read a calendar.

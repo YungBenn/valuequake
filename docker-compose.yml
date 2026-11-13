@@ -1,0 +1,30 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: valuequake
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-valuequake}
+      POSTGRES_DB: valuequake
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U valuequake"]
+      interval: 2s
+      retries: 15
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+psycopg://valuequake:${POSTGRES_PASSWORD:-valuequake}@db:5432/valuequake
+    restart: unless-stopped
+
+volumes:
+  pgdata:

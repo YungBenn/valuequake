@@ -1,0 +1,43 @@
+{
+ "corporate_actions": {
+  "cash_dividends": [
+   {
+    "id": "3f5b2a9e-7c41-4d0b-9a61-2b8e0c4f1d27",
+    "symbol": "TLT",
+    "cusip": "464287432",
+    "rate": 0.3149,
+    "special": false,
+    "foreign": false,
+    "process_date": "2024-06-07",
+    "ex_date": "2024-06-03",
+    "record_date": "2024-06-03",
+    "payable_date": "2024-06-07"
+   },
+   {
+    "id": "8c0e6d13-52af-4b7e-8d95-6a1f3e2c7b40",
+    "symbol": "SPY",
+    "cusip": "78462F103",
+    "rate": 1.7593,
+    "special": false,
+    "foreign": false,
+    "process_date": "2024-07-31",
+    "ex_date": "2024-06-21",
+    "record_date": "2024-06-21",
+    "payable_date": "2024-07-31"
+   },
+   {
+    "id": "d41a7f02-9b3c-4e85-a6d7-1c5e8f2b9a63",
+    "symbol": "TLT",
+    "cusip": "464287432",
+    "rate": 0.3266,
+    "special": false,
+    "foreign": false,
+    "process_date": "2024-07-08",
+    "ex_date": "2024-07-01",
+    "record_date": "2024-07-02",
+    "payable_date": "2024-07-08"
+   }
+  ]
+ },
+ "next_page_token": null
+}

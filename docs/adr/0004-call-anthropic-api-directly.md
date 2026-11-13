@@ -1,0 +1,3 @@
+# Call the Anthropic API directly, pinned to one model
+
+Scoring calls go straight to the Anthropic API with a dedicated API key, model pinned to `claude-opus-5-5`, with no fallback. Two alternatives were rejected. A Claude subscription login via the Agent SDK has unclear terms for automated use, shares usage limits with interactive work, and adds Claude Code's own prompt. A router such as 9router can silently fall back to other models, which would contaminate RPSS without any trace, and its OpenAI-compatible surface can drop structured outputs, prompt caching and effort. Each Prediction records the model id the response reports.

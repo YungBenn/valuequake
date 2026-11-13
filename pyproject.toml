@@ -1,0 +1,29 @@
+[project]
+name = "valuequake"
+version = "0.1.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "apscheduler>=3.11,<4",
+    "httpx>=0.28",
+    "numpy>=2.1",
+    "pandas>=2.2",
+    "psycopg[binary]>=3.2",
+    "sqlalchemy>=2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "testcontainers[postgres]>=4.9",
+]
+notebooks = [
+    "jupyterlab>=4.3",
+    "matplotlib>=3.9",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
